@@ -1,5 +1,6 @@
-# LinearReservoirOptimization
+# Optimizing the Network Topology of a Linear Reservoir Computer
 
+## Theory
 The goal of this paper is to develop an optimization framework for tuning the topology of a linear reservoir computer, making it competitive with its nonlinear counterpart while enhancing the interpretability of reservoir computing systems.
 
 The governing equation for a conventional decoupled reservoir computer is: (See the paper for details on how it is computed based on a conventional coupled reservoir computer)
@@ -21,8 +22,4 @@ The reservoir state matrix in the frequency domain (Eq. 17) will be computed aft
 The following optimization formulation based on Eq. 17 is developed to determine the optimal eigenvalues and output weights. 
 <img width="575" height="550" alt="image" src="https://github.com/user-attachments/assets/3b6f0abb-caab-4253-8abe-ac2987f58a40" />
 
-
-
-
-# Optimization Theory
-The optimization problem is formulated as:
+## Setup
