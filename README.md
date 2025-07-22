@@ -1,4 +1,4 @@
-<img width="338" height="171" alt="image" src="https://github.com/user-attachments/assets/cd0e0575-7e42-49de-82df-916694ca2985" /># LinearReservoirOptimization
+# LinearReservoirOptimization
 
 The goal of this paper is to develop an optimization framework for tuning the topology of a linear reservoir computer, making it competitive with its nonlinear counterpart while enhancing the interpretability of reservoir computing systems.
 
