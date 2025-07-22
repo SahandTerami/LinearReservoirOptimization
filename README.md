@@ -40,12 +40,19 @@ Results of the reservoir computer before and after optimization for a reservoir 
 
 ## Prerequisites
 Before running the optimization code, please ensure that Julia is installed and the following packages are added: JuMP, Ipopt, LinearAlgebra, and Distributions.
+
 You can add these packages by running the following commands in the Julia REPL:
+
 using Pkg
+
 Pkg.add("JuMP")
+
 Pkg.add("Ipopt")
+
 Pkg.add("LinearAlgebra")
+
 Pkg.add("Distributions")
+
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
