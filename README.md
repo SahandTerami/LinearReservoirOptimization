@@ -4,13 +4,12 @@
 The goal of this paper is to develop an optimization framework for tuning the topology of a linear reservoir computer, making it competitive with its nonlinear counterpart while enhancing the interpretability of reservoir computing systems.
 
 The governing equation for a conventional decoupled reservoir computer is: (See the paper for details on how it is computed based on a conventional coupled reservoir computer)
-<img width="514" height="59" alt="image" src="https://github.com/user-attachments/assets/14e969a4-4d47-43b1-af0b-dcba576b3c95" />
 
+<img width="514" height="59" alt="image" src="https://github.com/user-attachments/assets/14e969a4-4d47-43b1-af0b-dcba576b3c95" />
 where q is the decoupled reservoir state, Λ is a diagonal matrix of eigenvalues, c is the input weight, and γ is a positive constant.
 
 With the input and output frequencies of: 
 <img width="338" height="171" alt="image" src="https://github.com/user-attachments/assets/02addc7a-e2f1-4515-8767-d5b82a00df89" />
-
 where a and b are the amplitudes of input and output signals, respectively. ω is the frequency of the input signal. ϕ is the phase shift in the output signal.
 
 By solving Eq. 9,  the reservoir's state q can be expressed as in Eq. 14.
