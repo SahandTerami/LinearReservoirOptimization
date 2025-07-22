@@ -1,4 +1,4 @@
-# Optimizing the Network Topology of a Linear Reservoir Computer
+<img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/9d7e0099-092a-42cb-a869-7faee5d53238" /># Optimizing the Network Topology of a Linear Reservoir Computer
 
 ## Theory
 The goal of this paper is to develop an optimization framework for tuning the topology of a linear reservoir computer, making it competitive with its nonlinear counterpart while enhancing the interpretability of reservoir computing systems.
@@ -30,5 +30,21 @@ The reservoir state matrix in the frequency domain (Eq. 17) will be computed aft
 The following optimization formulation based on Eq. 17 is developed to determine the optimal eigenvalues and output weights. 
 
 <img width="575" height="550" alt="image" src="https://github.com/user-attachments/assets/3b6f0abb-caab-4253-8abe-ac2987f58a40" />
+## Results
 
-## Setup
+Results of the reservoir computer before and after optimization for a reservoir with 10 nodes and three distinct input frequencies:
+<img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/7232c78e-5f39-489a-891e-b46d5586f5a5" />
+<img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/330c797e-35f4-4b1c-8553-8ed20196ea34" />
+
+## Prerequisites
+Before running the optimization code, please ensure that Julia is installed and the following packages are added: JuMP, Ipopt, LinearAlgebra, and Distributions.
+You can add these packages by running the following commands in the Julia REPL:
+using Pkg
+Pkg.add("JuMP")
+Pkg.add("Ipopt")
+Pkg.add("LinearAlgebra")
+Pkg.add("Distributions")
+
+## Citation
+If you find our repo or paper useful, please cite us as follows:
+...
