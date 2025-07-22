@@ -30,8 +30,8 @@ The reservoir state matrix in the frequency domain (Eq. 17) will be computed aft
 The following optimization formulation based on Eq. 17 is developed to determine the optimal eigenvalues and output weights. 
 
 <img width="575" height="550" alt="image" src="https://github.com/user-attachments/assets/3b6f0abb-caab-4253-8abe-ac2987f58a40" />
-## Results
 
+## Results
 Results of the reservoir computer before and after optimization for a reservoir with 10 nodes and three distinct input frequencies:
 
 <img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/7232c78e-5f39-489a-891e-b46d5586f5a5" />
