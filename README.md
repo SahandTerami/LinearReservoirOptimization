@@ -1,4 +1,4 @@
-<img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/9d7e0099-092a-42cb-a869-7faee5d53238" /># Optimizing the Network Topology of a Linear Reservoir Computer
+# Optimizing the Network Topology of a Linear Reservoir Computer
 
 ## Theory
 The goal of this paper is to develop an optimization framework for tuning the topology of a linear reservoir computer, making it competitive with its nonlinear counterpart while enhancing the interpretability of reservoir computing systems.
@@ -33,7 +33,9 @@ The following optimization formulation based on Eq. 17 is developed to determine
 ## Results
 
 Results of the reservoir computer before and after optimization for a reservoir with 10 nodes and three distinct input frequencies:
+
 <img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/7232c78e-5f39-489a-891e-b46d5586f5a5" />
+
 <img width="1920" height="963" alt="image" src="https://github.com/user-attachments/assets/330c797e-35f4-4b1c-8553-8ed20196ea34" />
 
 ## Prerequisites
