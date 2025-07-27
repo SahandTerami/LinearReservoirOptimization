@@ -41,7 +41,7 @@ and for 250 nodes network:
 <img width="1312" height="747" alt="250-node" src="https://github.com/user-attachments/assets/ca6b3fab-531f-4c8f-adb6-92a09c52bd6f" />
 
 ## Prerequisites
-Before running the optimization code, please ensure that Julia is installed and the following packages are added: JuMP, Ipopt, LinearAlgebra, and Distributions.
+Before running the optimization code, please ensure that Julia is installed and the following packages are added: DelimitedFiles, JuMP, Ipopt, LinearAlgebra, and Distributions.
 
 You can add these packages by running the following commands in the Julia REPL:
 
@@ -55,6 +55,7 @@ Pkg.add("LinearAlgebra")
 
 Pkg.add("Distributions")
 
+Pkg.add("DelimitedFiles")
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
