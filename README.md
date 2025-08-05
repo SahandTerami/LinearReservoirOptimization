@@ -34,7 +34,8 @@ The following optimization formulation, based on Eq. 17, is developed to determi
 ## Results
 Results of the reservoir computer before and after optimization for a reservoir with 10 nodes and three distinct input frequencies:
 
-![10-node](https://github.com/user-attachments/assets/2998c173-871e-427e-acad-1bb9441fc20d)
+![10-node](https://github.com/user-attachments/assets/a9907e06-2106-488c-b885-09702e7df08c)
+
 
 
 
