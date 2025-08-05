@@ -59,7 +59,7 @@ Pkg.add("MathOptInterface")
 
 Pkg.add("DelimitedFiles")
 
-(The code is compatible with MATLAB version 2022a and later.)
+**(The code is compatible with MATLAB version 2022a and later.)**
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
