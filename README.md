@@ -69,8 +69,6 @@ Pkg.add("DelimitedFiles")
 
 3- Replace the parameters with your own values, then click the "Initialize" button. 
 
-(If you don't want to modify them, default values have already been assigned to each field based on the example from the paper for a 10-node reservoir.)
-
 After clicking the "Initialize" button, new empty fields will appear in the grey box corresponding to the number of input frequencies. These fields represent the parameters of the input and output signals, which you should fill with your signal values.
 
 4- Click the "Run" button to start the optimization.
