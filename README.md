@@ -62,7 +62,7 @@ Pkg.add("DelimitedFiles")
 
 ## How To Use The Code
 
-1- To run the code, open "runapp.mlapp". 
+1- To run the code, open "runapp.mlapp" in MATLAB. 
 
 2- Run the code from the Designer tab.
 
