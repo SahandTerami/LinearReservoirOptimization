@@ -41,7 +41,7 @@ and for 250 nodes network:
 <img width="1312" height="747" alt="250-node" src="https://github.com/user-attachments/assets/ca6b3fab-531f-4c8f-adb6-92a09c52bd6f" />
 
 ## Prerequisites
-Before running the optimization code, please ensure that Julia is installed and the following packages are added: DelimitedFiles, JuMP, Ipopt, LinearAlgebra, and Distributions.
+Before running the optimization code, please ensure that Julia is installed and the following packages are added: DelimitedFiles, JuMP, Ipopt, LinearAlgebra, MathOptInterface, and Distributions.
 
 You can add these packages by running the following commands in the Julia REPL:
 
@@ -55,7 +55,11 @@ Pkg.add("LinearAlgebra")
 
 Pkg.add("Distributions")
 
+Pkg.add("MathOptInterface")
+
 Pkg.add("DelimitedFiles")
+
+(The code is compatible with MATLAB version 2022a and later.)
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
