@@ -13,7 +13,7 @@ With the input and output frequencies of:
 
 <img width="338" height="171" alt="image" src="https://github.com/user-attachments/assets/02addc7a-e2f1-4515-8767-d5b82a00df89" />
 
-where a and b are the amplitudes of input and output signals, respectively. ω is the frequency of the input signal. ϕ is the phase shift in the output signal.
+where a and b are the amplitudes of the input and output signals, respectively. ω is the frequency of the input signal. ϕ is the phase shift in the output signal.
 
 By solving Eq. 9,  the reservoir's state q can be expressed as in Eq. 14.
 
@@ -27,7 +27,7 @@ The reservoir state matrix in the frequency domain (Eq. 17) will be computed aft
 
 <img width="1026" height="265" alt="image" src="https://github.com/user-attachments/assets/70249393-2128-4921-acb0-83e0801ed93c" />
 
-The following optimization formulation based on Eq. 17 is developed to determine the optimal eigenvalues and output weights. 
+The following optimization formulation, based on Eq. 17, is developed to determine the optimal eigenvalues and output weights. 
 
 <img width="575" height="550" alt="image" src="https://github.com/user-attachments/assets/3b6f0abb-caab-4253-8abe-ac2987f58a40" />
 
@@ -36,7 +36,7 @@ Results of the reservoir computer before and after optimization for a reservoir 
 
 <img width="1372" height="760" alt="10-node" src="https://github.com/user-attachments/assets/d4a38de1-a4b8-4342-a841-5b6d3da8658c" />
 
-and for 250 nodes network:
+and for a 100-node network:
 
 <img width="1312" height="747" alt="250-node" src="https://github.com/user-attachments/assets/ca6b3fab-531f-4c8f-adb6-92a09c52bd6f" />
 
@@ -60,6 +60,27 @@ Pkg.add("MathOptInterface")
 Pkg.add("DelimitedFiles")
 
 **(The code is compatible with MATLAB version 2022a and later.)**
+
+## How To Use The Code
+
+To run the code, open "runapp.mlapp". Once opened, the following window will appear:
+
+<img width="1915" height="1014" alt="image" src="https://github.com/user-attachments/assets/c634d3b1-ca57-4704-93b0-dda1234318e8" />
+
+Next, run the code from the Designer tab. The following window will appear:
+
+<img width="1191" height="820" alt="image" src="https://github.com/user-attachments/assets/dfc3a3e1-1a67-4eb5-92a0-5223a6c06b58" />
+
+Replace the parameters with your own values, then click the "Initialize" button. 
+(If you don't want to modify them, default values have already been assigned to each field based on the example from the paper for a 10-node reservoir.)
+
+After clicking the "Initialize" button, new empty fields will appear in the grey box corresponding to the number of input frequencies. These fields represent the parameters of the input and output signals, which you should fill with your signal values. Then, click the "Run" button to start the optimization.
+
+
+
+
+
+
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
