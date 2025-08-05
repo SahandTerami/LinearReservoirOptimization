@@ -65,21 +65,16 @@ Pkg.add("DelimitedFiles")
 
 To run the code, open "runapp.mlapp". Once opened, the following window will appear:
 
-<img width="1915" height="1014" alt="image" src="https://github.com/user-attachments/assets/c634d3b1-ca57-4704-93b0-dda1234318e8" />
+<img width="1312" height="747" alt="image" src="https://github.com/user-attachments/assets/c634d3b1-ca57-4704-93b0-dda1234318e8" />
 
 Next, run the code from the Designer tab. The following window will appear:
 
-<img width="1191" height="820" alt="image" src="https://github.com/user-attachments/assets/dfc3a3e1-1a67-4eb5-92a0-5223a6c06b58" />
+<img width="1312" height="747" alt="image" src="https://github.com/user-attachments/assets/dfc3a3e1-1a67-4eb5-92a0-5223a6c06b58" />
 
 Replace the parameters with your own values, then click the "Initialize" button. 
 (If you don't want to modify them, default values have already been assigned to each field based on the example from the paper for a 10-node reservoir.)
 
 After clicking the "Initialize" button, new empty fields will appear in the grey box corresponding to the number of input frequencies. These fields represent the parameters of the input and output signals, which you should fill with your signal values. Then, click the "Run" button to start the optimization.
-
-
-
-
-
 
 
 ## Citation
