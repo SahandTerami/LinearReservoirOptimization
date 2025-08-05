@@ -34,11 +34,9 @@ The following optimization formulation, based on Eq. 17, is developed to determi
 ## Results
 Results of the reservoir computer before and after optimization for a reservoir with 10 nodes and three distinct input frequencies:
 
-<img width="1372" height="760" alt="10-node" src="https://github.com/user-attachments/assets/d4a38de1-a4b8-4342-a841-5b6d3da8658c" />
+![10-node](https://github.com/user-attachments/assets/2998c173-871e-427e-acad-1bb9441fc20d)
 
-and for a 100-node network:
 
-<img width="1312" height="747" alt="250-node" src="https://github.com/user-attachments/assets/ca6b3fab-531f-4c8f-adb6-92a09c52bd6f" />
 
 ## Prerequisites
 Before running the optimization code, please ensure that Julia is installed and the following packages are added: DelimitedFiles, JuMP, Ipopt, LinearAlgebra, MathOptInterface, and Distributions.
