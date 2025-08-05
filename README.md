@@ -64,7 +64,9 @@ Pkg.add("DelimitedFiles")
 ## How To Use The Code
 
 1- To run the code, open "runapp.mlapp". 
-2- Run the code from the Designer tab. The following window will appear:
+
+2- Run the code from the Designer tab.
+
 3- Replace the parameters with your own values, then click the "Initialize" button. 
 
 (If you don't want to modify them, default values have already been assigned to each field based on the example from the paper for a 10-node reservoir.)
