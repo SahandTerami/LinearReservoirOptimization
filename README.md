@@ -76,5 +76,6 @@ Pkg.add("DelimitedFiles")
 
 ## Citation
 If you find our repo or paper useful, please cite us as follows:
+
 Tangerami, S., Mecholsky, N. A., & Sorrentino, F. (2025). Optimizing the Network Topology of a Linear Reservoir Computer. arXiv:2509.23391. [https://arxiv.org/abs/2509.23391](https://arxiv.org/abs/2509.23391)
 
